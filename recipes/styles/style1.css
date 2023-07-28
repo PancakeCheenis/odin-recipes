@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+/* Commit 1: Added class & centered text */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  /* Commit 1: Added class & moved image center */
