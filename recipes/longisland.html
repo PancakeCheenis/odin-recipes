@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <h1><strong>Long Island Iced Tea Recipe</strong></h1>
-        <img src="https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg"
-            width="300"
-            height="200"
-            alt="Long Island Iced Tea"
-        />
+        <meta charset="UTF-8"/>
+        <title>Long Island Recipe</title>
+        <link rel="stylesheet" href="styles/style2.css" />
+        <!-- Commit 2: Changed to title & moved img/headings to body section -->
     </head>
+
     <body>
-       <h2><strong><u>Ingredients</u></strong></h2>
-           <p>
-                <ul>
-                    <li>Vodka</li>
-                    <li>Tequlia</li>
-                    <li>Triple Sec</li>
-                    <li>Gin</li>
-                    <li>Rum</li>
-                    <li>Sweet & Sour</li>
-                    <li>Coke</li>
-                </ul>
-            </p>
-        <h2><strong><u>Mixing Steps</u></strong></h2>
-            <p>
-                <ol>
-                    <li>Step 1: Mix ice, vodka, tequila, triple sec, gin, rum, Sweet & Sour in a mixer.</li>
-                    <li>Step 2: Pour mixture into cup with ice.</li>
-                    <li>Step 3: Add coke to liking and stir slowly.</li>
-                    <li>Step 4: Enjoy!</li>
-                </ol>
-            </p>
+     <div class="container" id="container">
+        <div class="recipe-card feature">
+            <img src="https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg"
+            alt="Long Island Iced Tea"
+            />
+    <!-- Commit 2: Added classes & moved image styling to external css file -->
+            <div class="recipe-content">
+                <h1>Long Island Iced Tea Recipe</h1>
+                <p>This recipe requires a bit of ingredients, but its well worth. Fair warning it'll taste like a lemonade & tea mixture but will leave you knocked out in just a couple of drinks.</p>
+                <section class="recipe-info">
+                    <h2>Ingredients</h2>
+                        <ul>
+                            <li>Vodka</li>
+                            <li>Tequlia</li>
+                            <li>Triple Sec</li>
+                            <li>Gin</li>
+                            <li>Rum</li>
+                            <li>Sweet & Sour</li>
+                            <li>Coke</li>
+                            <li>Mixer Cup</li>
+                            <li>Strainer</li>
+                        </ul>
+                <!-- Commit 2: Removed p-tags, added classes, & rewrote description -->
+                </section>
+                <section class="recipe-steps">
+                    <h2>Mixing Steps</h2>
+                        <ol>
+                            <li>Put ice into a cup of your choice for the cocktail inorder to chill the cup. Never chill the liquor always the cup!!</li>
+                            <li>Grab the mixer cup put ice in one half and pour 1.5oz of each alcohol into the other half. Add the sweet & sour mixture with the alcohol to your liking.</li>
+                            <li>Combine the two halfs of the mixer and shake vigorously for 1 minute.</li>
+                            <li>Set the mixer aside. Dump the cup with the ice in it and with a strainer covering the mixer cup pour into the drinking cup.</li>
+                            <li>Pour coca-cola to your liking and stir slowly.</li>
+                            <li>Enjoy!</li>
+                        </ol>
+                <!-- Commit 2: Removed p-tags, added class, removed step numbers, & rewrote steps -->
+                </section>
+            </div>
+        </div>
+     </div>
     </body>
 </html>
 <!-- Created full list with only 1 Commit to test -->
+<!-- Commit 2: Reorganized structure for easier read, cleaner look, & added classes -->
