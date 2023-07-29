@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1><strong>Jungle Juice Recipe</strong></h1>
-        <img    src="https://easyhealthyrecipes.com/wp-content/uploads/2022/08/Jungle-Juice-9.jpg"
-                width="200"
-                height="300"
-                alt="Jungle Juice"
-        />
+        <title>Jungle Juice Recipe</title>
+        <link rel="stylesheet" href="styles/style3.css"/>
         <!-- Created title & added link to image -->
+        <!-- Commit 2: Changed heading to title -->
     </head>
     <body>
-        <p>
-            <h2><b><u>Ingredient List</u></b></h2>
-            <ul>
-                <li>Blue Raspberry Lemonday Kool-Aide Packets</li>
-                <li>Silver Tequila</li>
-                <li>Coconut Rum</li>
-                <li>Everclear</li>
-                <li>Lemonade</li>
-                <li>Squirt Soda</li>
-                <li>Blue Curacao</li>
-                <li>Orange Slices</li>
-                <li>Lemon Slices</li>
-                <li>Raspberries</li>
-            </ul>
-        </p>
-        <p>
-            <h2><b><u>Steps</u></b></h2>
-            <ol>
-                <li>Pour all the alcohol into a 10 gallon container.</li>
-                <li>Added the Kool-Aide packets & mix.</li>
-                <li>Add lemonade & soda & mix.</li>
-                <li>Add Orange, lemon, & raspberries.</li>
-                <li>Pour & Enjoy!</li>
-            </ol>
-        </p>
+     <div class="container" id="container">
+        <div class="recipe-card">
+            <img src="https://easyhealthyrecipes.com/wp-content/uploads/2022/08/Jungle-Juice-9.jpg" alt="Jungle Juice"
+            />
+            <!-- Moved img to body section, removed p-tags, & added classes -->
+            <section class="recipe-content">
+                <h1>Jungle Juice Recipe</h1>
+                <p>Jungle Juice for all your endavors. Arguably the best recipe for Jungel Juice. Tastes like fancy kool-aide.</p>
+                <h2>Ingredient List</h2>
+                <section class="recipe-ingredients">   
+                    <ul>
+                        <li>Kool-Aide Packets</li>
+                        <li>Silver Tequila</li>
+                        <li>Coconut Rum</li>
+                        <li>Everclear</li>
+                        <li>Lemonade</li>
+                        <li>Squirt Soda</li>
+                        <li>Blue Curacao</li>
+                        <li>Orange Slices</li>
+                        <li>Lemon Slices</li>
+                        <li>Raspberries</li>
+                    </ul>
+                </section>
+            </section>
+            <!-- Commit 2: Restructured code, added paragraph, & class -->
+            <h2>Recipe Steps</h2>
+            <section class="recipe-steps">
+                    <ol>
+                        <li>Pour all the alcohol into a 10 gallon container.</li>
+                        <li>Added the Kool-Aide packets & mix.</li>
+                        <li>Add lemonade & soda & mix.</li>
+                        <li>Add Orange, lemon, & raspberries.</li>
+                        <li>Pour & Enjoy!</li>
+                    </ol>
+            </section>
+            <!-- Commit 2: Resturctured code, added class, & removed p/u/b-tags -->
+        </div>
+     </div>
     </body>
 </html>
 <!-- Commit 1: Created third recipe and code -->
