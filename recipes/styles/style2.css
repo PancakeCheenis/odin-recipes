@@ -1,0 +1,42 @@
+* {
+    line-height: 1.25;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+ul {
+    list-style: none;
+}
+
+.recipe-card {
+    width: 400px;
+    text-align: center;
+    .recipe-content {
+        text-align: left;
+    }
+}
+
+.recipe-info h2,
+.recipe-steps h2 {
+    text-transform: uppercase;
+}
+
+.recipe-card.feature {
+    border: 2px solid yellowgreen;
+}
+
+.recipe-info h2,
+.recipe-steps h2 {
+    font-size: 16px;
+}
+/* Added similar styles from example with different classes and content */
